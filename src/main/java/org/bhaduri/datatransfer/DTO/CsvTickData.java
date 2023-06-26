@@ -4,6 +4,7 @@
  */
 package org.bhaduri.datatransfer.DTO;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -12,7 +13,7 @@ import java.util.List;
  */
 public class CsvTickData {
     private List<List<Double>> tickData;
-    private String dateTime;
+    private Date dateTime;
 
     public List<List<Double>> getTickData() {
         return tickData;
@@ -22,11 +23,11 @@ public class CsvTickData {
         this.tickData = tickData;
     }
 
-    public String getDateTime() {
+    public Date getDateTime() {
         return dateTime;
     }
 
-    public void setDateTime(String dateTime) {
+    public void setDateTime(Date dateTime) {
         this.dateTime = dateTime;
     }
     

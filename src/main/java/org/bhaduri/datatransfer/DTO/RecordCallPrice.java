@@ -4,13 +4,16 @@
  */
 package org.bhaduri.datatransfer.DTO;
 
+import java.util.Date;
+
 /**
  *
  * @author sb
  */
 public class RecordCallPrice {
     private String scripID;
-    private String lastUpdateTime;
+    private Date lastUpdateTime;
+//    private String lastUpdateTime;
     private Double Price;
     private String lastCallVersionOne;
     private String lastCallVersionTwo;
@@ -29,11 +32,11 @@ public class RecordCallPrice {
         this.scripID = scripID;
     }
 
-    public String getLastUpdateTime() {
+    public Date getLastUpdateTime() {
         return lastUpdateTime;
     }
 
-    public void setLastUpdateTime(String lastUpdateTime) {
+    public void setLastUpdateTime(Date lastUpdateTime) {
         this.lastUpdateTime = lastUpdateTime;
     }
 
@@ -107,8 +110,6 @@ public class RecordCallPrice {
 
     public void setPriceBrokerageGstTwo(Double priceBrokerageGstTwo) {
         this.priceBrokerageGstTwo = priceBrokerageGstTwo;
-    }
-
-    
+    }    
     
 }
