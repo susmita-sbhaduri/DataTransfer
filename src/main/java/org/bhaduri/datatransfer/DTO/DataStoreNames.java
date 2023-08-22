@@ -12,7 +12,7 @@ public class DataStoreNames {
 
     public static final String TICKER_DATA_DETAILS = "/home/sb/tarang_csv/tarang_18Aug.csv";
 //    public static final String INPUT_CALL_DATA_PATH = "/home/sb/Documents/java_testing/calls07java.csv";
-    public static final String OUTPUT_CALL_DATA_PATH = "/home/sb/Documents/java_testing/calls22aug.csv";
+    public static final String OUTPUT_CALL_DATA_PATH = "/home/sb/Documents/java_testing/calls23aug.csv";
 //    public static final String INPUT_PRICE_DATA_PATH = "/home/sb/Documents/java_testing/price06java.csv";
     public static final String OUTPUT_MINUTEDATA_INTERVAL = "/home/sb/Documents/java_testing/minDataforInterval.csv";
     public static final String INPUT_INTRADAY_MINUTEDATA = "/home/sb/Documents/java_testing/minutedata_java.csv";
