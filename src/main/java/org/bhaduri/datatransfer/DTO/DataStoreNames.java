@@ -11,8 +11,8 @@ package org.bhaduri.datatransfer.DTO;
 public class DataStoreNames {
 
     public static final String TICKER_DATA_DETAILS = "/home/sb/Documents/testi_midday/midday_test/";
-    public static final String TICKER_DATA_NIFTY = "/home/sb/Documents/testi_midday/mid_csv/tarang_29Aug_m.csv";
-    public static final String OUTPUT_CALL_DATA_PATH = "/home/sb/Documents/java_testing/calls29aug.csv";
+    public static final String TICKER_DATA_NIFTY = "/home/sb/Documents/testi_midday/midday_test/NIFTY 50/NIFTY 50_Aug-31-2023_1.csv";
+    public static final String OUTPUT_CALL_DATA_PATH = "/home/sb/Documents/java_testing/calls31aug.csv";
 //    public static final String INPUT_PRICE_DATA_PATH = "/home/sb/Documents/java_testing/price06java.csv";
     public static final String OUTPUT_MINUTEDATA_INTERVAL = "/home/sb/Documents/java_testing/minDataforInterval.csv";
     public static final String INPUT_INTRADAY_MINUTEDATA = "/home/sb/Documents/java_testing/minutedata_java.csv";
