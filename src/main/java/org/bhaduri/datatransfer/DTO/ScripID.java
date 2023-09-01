@@ -4,13 +4,14 @@
  */
 package org.bhaduri.datatransfer.DTO;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  *
  * @author sb
  */
-public class ScripID {
+public class ScripID implements Serializable {
     private String scripID;
    
     public String getScripID() {
