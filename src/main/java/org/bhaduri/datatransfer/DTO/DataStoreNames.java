@@ -8,7 +8,7 @@ package org.bhaduri.datatransfer.DTO;
  *
  * @author sb
  */
-public class DataStoreNames {
+public class DataStoreNames {//
 
     public static final String TICKER_DATA_DETAILS = "/home/sb/Documents/testi_midday/midday_test/";
     public static final String TICKER_DATA_NIFTY = "/home/sb/Documents/testi_midday/midday_test/NIFTY 50/NIFTY 50_Feb-05-2024_1.csv";
